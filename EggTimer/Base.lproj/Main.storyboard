@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14865.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14819.2"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,14 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wI6-ag-afn" userLabel="Vertical Stack View">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <rect key="frame" x="20" y="48" width="374" height="814"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9S4-l0-41N" userLabel="Title View">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="259.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="258"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you like your eggs?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="XLm-5r-pSP" userLabel="Title Label">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="259.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select your egg preference!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="XLm-5r-pSP" userLabel="Title Label">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="258"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -36,16 +37,16 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wAa-qa-eeB" userLabel="Egg Stack View">
-                                        <rect key="frame" x="0.0" y="279.5" width="374" height="259"/>
+                                        <rect key="frame" x="0.0" y="278" width="374" height="258"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="krr-GL-MDb" userLabel="Soft Egg View">
-                                                <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="258"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="9Dz-Gz-hZV" userLabel="Soft Egg ImageView">
-                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="258"/>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNr-Dp-1Dg" userLabel="Soft Egg Button">
-                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="258"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                         <state key="normal" title="Soft"/>
                                                         <connections>
@@ -65,13 +66,13 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8sX-Es-wjg" userLabel="Medium Egg View">
-                                                <rect key="frame" x="128" y="0.0" width="118" height="259"/>
+                                                <rect key="frame" x="128" y="0.0" width="118" height="258"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medium_egg" translatesAutoresizingMaskIntoConstraints="NO" id="aSR-UQ-xgS" userLabel="Medium Egg ImageView">
-                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="258"/>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3H-nl-7AG" userLabel="Medium Egg Button">
-                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="258"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                         <state key="normal" title="Medium"/>
                                                         <connections>
@@ -91,13 +92,13 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dkc-bh-F3c" userLabel="Hard Egg View">
-                                                <rect key="frame" x="256" y="0.0" width="118" height="259"/>
+                                                <rect key="frame" x="256" y="0.0" width="118" height="258"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hard_egg" translatesAutoresizingMaskIntoConstraints="NO" id="K9y-07-tEO" userLabel="Hard Egg ImageView">
-                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="258"/>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEu-V5-iHi" userLabel="Hard Egg Button">
-                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="258"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                         <state key="normal" title="Hard"/>
                                                         <connections>
@@ -119,14 +120,14 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hpm-cy-XFb" userLabel="Timer View">
-                                        <rect key="frame" x="0.0" y="558.5" width="374" height="259.5"/>
+                                        <rect key="frame" x="0.0" y="556" width="374" height="258"/>
                                         <subviews>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="B4U-fy-91r">
-                                                <rect key="frame" x="0.0" y="127.5" width="374" height="6"/>
+                                                <rect key="frame" x="0.0" y="121" width="374" height="17"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="5" id="qre-fS-5um"/>
+                                                    <constraint firstAttribute="height" constant="16" id="qre-fS-5um"/>
                                                 </constraints>
-                                                <color key="progressTintColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="progressTintColor" red="0.2196078431372549" green="1" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="trackTintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </progressView>
                                         </subviews>
@@ -139,14 +140,14 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843137254897" green="0.94901960784313721" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.97647058823529409" green="0.85490196078431369" blue="0.043137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wI6-ag-afn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="8Bl-BK-cpF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wI6-ag-afn" secondAttribute="bottom" id="TCD-uE-n4C"/>
                             <constraint firstItem="wI6-ag-afn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Wgn-J5-uGK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wI6-ag-afn" secondAttribute="trailing" id="dky-ZA-Z3J"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="progressBar" destination="B4U-fy-91r" id="J7S-Yw-NMu"/>
